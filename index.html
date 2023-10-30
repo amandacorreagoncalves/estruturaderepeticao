@@ -1,22 +1,26 @@
 <html>
-    <head>
-        <title>login</title>
-        <script type="text/javascript">
-            let user= document class="getElementById">("user").value;
-            let pass=documet       ("pass").value;
-                    if(user=="ludson'&&pass==("1234"){
-                        alert("bem vindo"+user);
-            </document>
-        </script>
-        <head/>
-        <body>
-            <form>
-                <label for="user">usario</label>
-                <input type="text" id="user">
-                <label for="pass">senha</label>
-                <input type="password" id="pass">
-                <button onclink="login()">entra</button>
-            </form>
-        </body>
-    </head>
 
+<head>
+    <title>login</title>
+    <script type="text/javascript">
+        function login() {
+            let user = document.getElementById("user").value;
+            let pass = document.getElementById("pass").value;
+            if (user == "ludson" && pass == "1234") {
+                alert("bem vindo" + user);
+            }
+        }
+    </script>
+
+    <head />
+
+<body>
+    <form>
+        <label for="user">usario</label>
+        <input type="text" id="user">
+        <label for="pass">senha</label>
+        <input type="password" id="pass">
+        <button onclink="login()">entra</button>
+    </form>
+</body>
+</head>
